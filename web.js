@@ -7,6 +7,7 @@ http.createServer(function (request, response) {
         options = {
             uri: "http://www.realramsfans.com" + request.url,
             method: request.method,
+            jar: false,
             encoding: null
         };
 
