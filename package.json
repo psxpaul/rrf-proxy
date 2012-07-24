@@ -1,0 +1,11 @@
+{
+  "name": "rrf-proxy",
+  "version": "0.0.1",
+  "dependencies": {
+    "request": "2.9.203"
+  },
+  "engines": {
+    "npm": "1.1.x",
+    "node": "0.8.x"
+  }
+}
