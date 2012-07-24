@@ -12,7 +12,7 @@ http.createServer(function (request, response) {
 
     headers = request.headers;
     headers.host = "www.realramsfans.com";
-    headers.referer = (headers.referer) ? headers.referer.replace("rrf.paulandkana.com", "www.realramsfans") : undefined;
+    headers.referer = (headers.referer) ? headers.referer.replace("rrf-proxy.herokuapp.com", "www.realramsfans") : undefined;
     delete headers["accept-encoding"];
     headers.connection = "close";
     options.headers = headers;
